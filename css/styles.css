@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body {
   background-color: black;
@@ -1285,6 +1286,47 @@ input, textarea {
   border-radius: 10px;
   /* height: 95%; */
 }
+
+
+
+
+/*------------ PAGINA HISTORIA -------------*/
+
+
+.titulohistoria {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.textoinicio {
+  text-align: justify;
+  border: 3px solid greenyellow;
+  margin-bottom: 10px;
+  
+}
+
+.textos {
+  /* background-color: aqua; */
+  padding-top: 100px;
+}
+
+
+.tercertexto {
+  padding-top: 150px;
+}
+
+.titulolegendarias {
+  font-style: oblique;
+  color: greenyellow;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+
+
+
 
 
 
