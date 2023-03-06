@@ -60,7 +60,7 @@ body {
 
 
 .navbarpadre {
-  width: 50%;
+  width: 100%;
    
   /* background-color: blue; */
     
@@ -72,9 +72,7 @@ body {
   margin-left: 20px;
   transition: 1s;
   border-radius: 5px;
-    
-
-    
+        
 }
 
 .navbarini:hover {
@@ -1297,6 +1295,8 @@ input, textarea {
   margin-top: 30px;
   margin-left: 30px;
   margin-bottom: 40px;
+  font-style: oblique;
+  color: greenyellow;
 }
 
 .textoinicio {
@@ -1322,6 +1322,13 @@ input, textarea {
   margin-top: 40px;
   margin-left: 40px;
   margin-bottom: 50px;
+}
+
+.carousel {
+  width: 50%;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  padding-left: 70px;
 }
 
 
@@ -1351,7 +1358,7 @@ input, textarea {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     
 
   /* INDEX */
@@ -1378,6 +1385,7 @@ input, textarea {
     position: absolute;
     justify-content: center;
     width: 70%;
+    font-size: 11px;
         
   }
 
@@ -1390,13 +1398,17 @@ input, textarea {
   }
 
   .imgindex:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   .imgp {
     width: 100%;
     margin: 0;
         
+  }
+
+  .linkimgp {
+    margin-left: 200px;
   }
 
   .tituloaccesorios {
@@ -1468,6 +1480,10 @@ input, textarea {
            
   }
 
+  .linkreturn {
+    margin-left: 430px;
+  }
+
   .tituloimgropa {
     margin-left: 20px;
     width: 60%;
@@ -1514,16 +1530,16 @@ input, textarea {
 
   .form2 {
     margin: 0;
-       
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/ninjafondo.jpg) no-repeat top center  ;
   }
 
 
   .formregistro2 {
-    position: relative;
+    
     margin: 0;
     width: 40%;
     margin-left: -350px;
-    margin-top: 10px;
+    margin-top: -55px;
   }
 
   .fieldset2 {
@@ -1535,20 +1551,30 @@ input, textarea {
     text-align: center;
     
   }
+
+  /* HISTORIA   */
+
+
+
+
+
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
     
 
   /* INDEX */
     
+
+
   .cajaheder {
     margin-bottom: 15px;
     width: 100%;
     
  
   }
+
 
   .navbarpadre {
     width: 100%;
@@ -1575,7 +1601,11 @@ input, textarea {
                   
   }
 
- 
+  .tituloimg {
+    font-size: 11px;
+    width: 75%;
+  }
+
   .tituloimp {
          
         
@@ -1683,17 +1713,120 @@ input, textarea {
   }
 
 
+
+  /*  HISTORIA  */
+
+
+
+  .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .carousel {
+    margin: 0;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 70%;
+  }
+
+
+
+
+
 }
  
 
 
+@media screen and (max-width: 678px) {
+  
+
+  /*   INDEX   */
+
+
+  .parrafologo {
+    
+    margin-left: 110px;
+  }
+
+
+  .navbarpadre {
+    margin-top: 15px;
+    
+  }
+
+  .linea1 {
+    margin-top: 30px;
+  }
+
+
+  .tituloimg {
+    width: 80%;
+    font-size: 11px;
+  }
+
+
+
+  .linkimgp {
+    margin: 0;
+    margin-left: 100px;
+    
+  }
+
+
+  /*    REGISTRO   */
+
+  .tituloregistro {
+    width: 50%;
+  }
+
+  .formregistro1 {
+    width: 60%;
+  }
+
+
+
+  /*  CATALOGO   */
+
+  .titulovehiculos {
+    width: 70%;
+  }
+
+  .fotomoto {
+    width: 100%;
+  }
+
+  .linkreturn {
+    margin: 0;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+  }
+
+  .gridropa {
+    grid-template-columns: 225px 225px ;
+    grid-template-rows: 300px
+  }
+
+
+
+}
 
 
 
 
 
 
-@media only screen and (max-width: 767px) {
+
+
+
+
+
+@media screen and (max-width: 600px) {
     
 
    
@@ -1718,7 +1851,9 @@ input, textarea {
   }
 
   .parrafologo{
-    margin-left: 110px;
+    /* background-color: aquamarine; */
+    margin-left:100px;
+    width: 100%;
   }
 
   .contenedorcentral  {
@@ -1731,7 +1866,10 @@ input, textarea {
           
   }
 
-    
+  .tituloimg {
+    font-size: 11px;
+    width: 80%;
+  }
 
   .imgindex {
     width: 100%;
@@ -1767,7 +1905,7 @@ input, textarea {
   }
 
   .linkimgp {
-    margin-left: 290px;
+    margin-left: 200px;
     
   }
 
@@ -1819,11 +1957,15 @@ input, textarea {
   /*------CATALOGO----------*/
 
   .titulovehiculos {
-    width: 60%;
+    width: 70%;
   }
 
   .cajamoto {
     height: 300px;
+  }
+
+  .fotomoto {
+    width: 100%;
   }
 
   .cajadescripcionmoto {
@@ -1833,7 +1975,7 @@ input, textarea {
   .linkreturn {
     margin: 0;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 180px;
   }
 
   .gridropa {
@@ -1847,10 +1989,27 @@ input, textarea {
 
 
   .formregistro2 {
-    width: 50%;
+    width: 70%;
     align-items: center;
     
   }
+
+
+  /*  HISTORIA   */
+
+  .titulohistoria {
+    margin-top: 40px;
+  }
+
+
+  .carousel {
+    width: 80%;
+    margin: 0;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+
 
 
 }
