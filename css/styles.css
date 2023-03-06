@@ -1431,14 +1431,16 @@ input, textarea {
     
   /* Registro */
     
-
+  .tituloregistro {
+    width: 50%;
+  }
     
 
 
   .form1 {
         
         
-    background-color: aqua;
+    /* background-color: aqua; */
     background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
 
     width: 100%;
@@ -1844,6 +1846,10 @@ input, textarea {
         
   }
 
+  .navbarini {
+    font-size: 13px;
+  }
+
 
   .logoindex {
     display: flex;
@@ -1854,6 +1860,7 @@ input, textarea {
     /* background-color: aquamarine; */
     margin-left:100px;
     width: 100%;
+    font-size: 13px;
   }
 
   .contenedorcentral  {
@@ -2006,6 +2013,268 @@ input, textarea {
     width: 80%;
     margin: 0;
     margin-left: 45px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    
+
+   
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+        
+ 
+  }
+
+  .navbarpadre {
+    width: 100%;
+    display: flex;
+        
+        
+  }
+
+  .navbarini {
+    font-size: 13px;
+    
+  }
+
+  .linea1 {
+    margin-top: 40px;
+  }
+
+  .logoindex {
+    display: flex;
+
+  }
+
+
+
+  .h2estilo {
+    font-size: 13px;
+  }
+
+
+
+  .parrafologo{
+    /* background-color: aquamarine; */
+    margin-left: 80px;
+    margin-top: 11px;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .contenedorcentral  {
+         
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+         
+          
+  }
+
+  .tituloimg {
+    font-size: 11px;
+    width: 80%;
+  }
+
+  .imgindex {
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+        
+  }
+
+  .imgindex:hover {
+    transform: scale(1.05);
+  }
+    
+  .tituloimgp {
+        
+    text-decoration: underline;
+    justify-content: center;
+    width: 100%;
+        
+        
+  }
+
+  .imgp {
+    width: 80%;
+    margin-left: 36px;
+    margin-bottom: 20px;
+        
+        
+  }
+
+  .pimg {
+    text-align: left;
+    font-size: 13px;
+        
+  }
+
+  .linkimgp {
+    margin-left: 120px;
+    
+  }
+
+  .derechoreservado {
+    font-size: 12px;
+  }
+
+    
+  /* REGISTRO */
+    
+
+  .positionfix {
+    margin-bottom: 15px;
+    width: 100%;
+        
+  }
+
+
+  .form1 {
+        
+        
+    /* background-color: aqua; */
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+          
+
+  }
+
+  .formregistro1 {
+
+    width: 80%;
+    margin-left: -280px;
+    margin-top: 300px;
+    background-color: rgb(0, 0, 0);
+
+  }
+    
+  .fieldset1 {
+
+    margin: 0;
+
+  }
+    
+
+  /*------CATALOGO----------*/
+
+  .titulovehiculos {
+    width: 70%;
+    
+  }
+
+  .h2estilo {
+    font-size: 18px;
+  }
+
+  .cajamoto {
+    height: 300px;
+  }
+
+  .fotomoto {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .cajadescripcionmoto {
+    font-size: 11px;
+  }
+
+  .linkreturn {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .linkinicio {
+    font-size: 14px;
+  }
+
+  .tituloimgropa {
+    width: 90%;
+  }
+
+  .gridropa {
+    grid-template-columns: 200px  ;
+    grid-template-rows: 300px
+  }
+
+  .descripcionropa {
+    font-size: 14px;
+  }
+
+
+  /*--------NOSOTROS---------*/
+
+  .titulonosotros {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+
+
+  .parrafonosotros {
+    font-size: 15px;
+  }
+
+  .imgnosotros {
+    margin-left: 70px;
+  }
+
+  .mapatienda {
+    width: 80%;
+  }
+
+
+
+
+
+  /*--------CONTACTO---------*/
+
+
+  .formregistro2 {
+    width: 85%;
+    align-items: center;
+   margin-left: -430px;
+    
+  }
+
+
+  /*  HISTORIA   */
+
+  .titulohistoria {
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .titulolegendarias {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+
+  .carousel {
+    width: 90%;
+    margin: 0;
+    margin-left: 20px;
     margin-bottom: 20px;
     padding-right: 50px;
   }
