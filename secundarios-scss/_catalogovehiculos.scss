@@ -1,0 +1,73 @@
+
+
+.catalogo {
+    border: 1px solid greenyellow;
+    margin: 10px;
+  
+    padding: 20px;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+  
+
+    .cajamoto {
+        
+        border: 1px solid greenyellow;
+        width: 40%;
+        margin-top: 50px;
+        flex-direction: row;
+      
+        transition: 1s;
+
+
+        &:hover {
+            transform: scale(1.05);
+            background-color: white;
+        }
+
+    }
+
+
+    .cajadescripcionmoto {
+        color: white;
+        border-left: solid greenyellow;
+        width: 50%;
+        margin-top: 50px;
+        padding: 20px;
+        display: inline-block;
+        line-height: 2;
+        
+    }
+
+
+    .linkreturn {
+       
+        margin-top: 20px;
+        margin-left: 755px;
+        font-size: 20px; 
+        color: greenyellow;
+        padding: 10px;
+        
+        .linkinicio {
+            color: greenyellow;
+            text-decoration: none;
+            border: 2px solid greenyellow;
+            border-radius: 5px;
+            padding: 10px;
+            transition: 1s;
+
+            &:hover {
+                background-color: greenyellow;
+                border: 1px solid yellow;
+                color: black;
+            }
+            
+        }
+
+
+    }
+
+}

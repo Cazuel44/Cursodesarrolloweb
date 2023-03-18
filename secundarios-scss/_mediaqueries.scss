@@ -1,0 +1,1273 @@
+
+
+@media screen and (max-width: 1200px) {
+    
+
+  /* INDEX */
+     
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+         
+          
+  }
+  
+  .contenedorcentral  {
+          
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(2, 2fr);
+          
+    .tituloimg {
+          
+      position: absolute;
+      justify-content: center;
+      width: 70%;
+      font-size: 11px;
+            
+    }
+
+    .imgindex {
+      width: 100%;
+      margin: 0px;
+      margin-top: 100px;
+      margin-bottom: 15px;
+        
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .imgp {
+        width: 100%;
+        margin: 0;
+              
+      }
+
+      .linkimgp {
+        margin-left: 200px;
+      }
+
+
+    }
+
+
+    .tituloaccesorios {
+      margin: 10px;
+      width: 100%;
+      
+      font-size: 15px;
+
+      .linkropa {
+        width: 75%;
+      }
+
+    }
+
+           
+  }
+  
+  .derechoreservado {
+    font-size: 12px;
+  }
+  
+      
+  /* Registro */
+      
+  .tituloregistro {
+    width: 50%;
+  }
+      
+  
+  
+  .form1 {
+          
+          
+   
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
+  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+            
+
+    .formregistro1 {
+  
+      width: 45%;
+      position: absolute;
+      margin-top: 300px;
+      margin-left: -250px;
+      background-color: rgb(0, 0, 0);
+
+
+      .fieldset1 {
+          
+        margin: 0;
+      }
+
+
+
+    }
+  
+  }
+  
+  
+  
+  /* CATALOGO */
+  
+  .titulovehiculos {
+  width: 40%;
+  margin-bottom: 15px;
+  }
+  
+  
+  .catalogo {
+    width: 100%;
+    display: flex;
+    margin: 0;
+        
+    .linkreturn {
+      margin-left: 430px;
+    }
+
+
+  }
+  
+  
+  
+  .tituloimgropa {
+    margin-left: 20px;
+    width: 60%;
+  }
+  
+  .gridropa {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 396px;
+
+    .imagenes{
+      height: 200px;
+    }
+
+  }
+  
+      
+  /* NOSOTROS */
+  
+  .titulonosotros {
+    font-style: oblique;
+    text-decoration: underline;
+  }
+  
+  .fondogradientanimado {
+
+    .cajaseimagenes {
+      flex-direction: column;
+  
+      .quienesomos {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+  
+      .imgnosotros {
+        width: 70%;
+        margin-left: 100px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+              
+      }
+  
+    }
+    
+  }
+  
+  
+  
+  
+  /* CONTACTO */
+  
+  .form2 {
+    margin: 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/ninjafondo.jpg) no-repeat top center  ;
+
+    .formregistro2 {
+      
+      margin: 0;
+      width: 40%;
+      margin-left: -350px;
+      margin-top: -55px;
+
+      .fieldset2 {
+        margin: 0;
+      
+        .enviarcontacto {
+          text-align: center;
+            
+        }
+
+      }
+
+    }
+
+  }
+  
+
+
+  /* HISTORIA   */
+  
+
+  .container {
+
+    .textos {
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .carousel {
+      margin: 0;
+      margin-left: 21px;
+      margin-bottom: 20px;
+      padding: 0;
+      padding-left: 315px;
+      width: 100%;
+    }
+
+  }
+
+
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+  .contenedorcentral  {
+
+    .imgindex {
+
+      .linkimgp {
+        margin-left: 71px;
+      }
+
+    }
+            
+  }
+
+
+
+  /*  HISTORIA  */
+  
+  .container {
+
+    .textos {
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .carousel {
+      margin: 0;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding: 0;
+      padding-left: 250px;
+      padding-right: 10px;
+      width: 100%;
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+
+  /*  HISTORIA  */
+  
+  .container {
+
+    .textos {
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .carousel {
+      margin: 0;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding: 0;
+      padding-left: 156px;
+      padding-right: 10px;
+      width: 100%;
+    }
+
+  }
+}
+
+
+
+  
+  
+@media screen and (max-width: 768px) {
+      
+  
+  /* INDEX */
+      
+  
+  
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+     
+    
+    .logoindex {
+          
+      display: flex;
+
+      .parrafologo{
+        margin-left: 110px;
+      }
+
+    }
+
+
+    .navbarpadre {
+      width: 100%;
+      display: flex;
+            
+            
+    }
+
+    
+   
+  }
+  
+  
+  
+  
+  
+   
+  .contenedorcentral  {
+           
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(2, 2fr);
+                    
+    .tituloimg {
+      font-size: 11px;
+      width: 75%;
+    }
+
+    .imgindex {
+      width: 100%;
+      margin: 0px;
+      margin-top: 100px;
+      margin-bottom: 10px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      .imgp {
+        width: 100%;
+        margin: 0;
+               
+      }
+
+      .tituloimgp {
+           
+          
+        justify-content: center;
+        width: 80%;
+               
+      }
+       
+
+    }
+
+
+
+  }
+  
+  .derechoreservado {
+    font-size: 12px;
+  }
+   
+       
+  /* Registro */
+       
+   
+  .tituloregistro {
+    width: 50%;
+  }
+   
+   
+  .form1 {
+           
+           
+    background-color: greenyellow;
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+             
+
+    .formregistro1 {
+   
+      width: 50%;
+      margin: 0 auto;
+            
+      margin-top: 350px;
+      margin-left: -250px;
+      background-color: rgb(0, 0, 0);
+
+      .fieldset1 {
+           
+        margin: 0;
+      }
+
+
+    }
+   
+  }
+   
+  
+  /*--------NOSOTROS---------*/
+
+  .fondogradientanimado{
+
+    .titulonosotros {
+      
+      margin-top: 75px;
+    }
+    .cajaseimagenes{
+
+      .quienesomos{
+
+        width: 80%;
+        
+
+      }
+
+      .imgnosotros {
+        margin-left: 46px;
+        width: 80%;
+      }
+      
+    }
+  }
+       
+  
+       
+  
+  /*-----------CATALOGO-----------*/ ///////////////
+  
+  
+
+  .titulovehiculos {
+    width: 55%;
+  }
+
+  .catalogo{
+
+    .cajamoto {
+      height: 200px;
+    }
+
+    .cajadescripcionmoto {
+      font-size: 15px;
+      padding: 15px;
+      width: 50%;
+    
+      li {
+        list-style: none;
+      }
+        
+    }
+    
+    .linkreturn {
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 250px;
+    }
+
+  }
+   
+  
+  .gridropa {
+    grid-template-columns: 225px 225px ;
+    grid-template-rows: 398px;
+  }
+  
+  
+  /*---------CONTACTO-----------*/
+  .form2 {
+
+    .formregistro2 {
+      width: 50%;
+        
+    }
+
+  }
+  
+  
+  
+  
+  /*  HISTORIA  */
+  
+  .container {
+
+    .textos {
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .carousel {
+      margin: 0;
+      margin-left: -11px;
+      margin-bottom: 20px;
+      padding: 0;
+      padding-left: 132px;
+      padding-right: 50px;
+      width: 100%;
+    }
+
+  }
+  
+  
+  
+}
+   
+  
+  
+@media screen and (max-width: 680px) {
+    
+  
+  /*   INDEX   */
+  
+  
+  .cajaheder {
+
+    .parrafologo {
+      
+      margin-left: 110px;
+    }
+
+    .navbarpadre {
+      margin-top: 15px;
+        
+    }
+
+  }
+  
+  
+  .linea1 {
+    margin-top: 30px;
+  }
+  
+  .contenedorcentral{
+
+    .tituloimg {
+      width: 80%;
+      font-size: 11px;
+    }
+    .imgindex {
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .linkimgp {
+        margin: 0;
+        margin-left: 100px;
+          
+      }
+
+    }
+  }
+  
+  
+
+  
+  /*    REGISTRO   */
+  
+  .tituloregistro {
+    width: 50%;
+  }
+  
+  .form1 {
+
+    .formregistro1 {
+      width: 60%;
+    }
+
+  }
+  
+  
+  /*--------NOSOTROS---------*/
+
+  .fondogradientanimado{
+
+    .titulonosotros {
+      font-size: 25px;
+      margin-top: 75px;
+    }
+    .cajaseimagenes{
+
+      .quienesomos{
+
+        width: 80%;
+        .parrafonosotros {
+          font-size: 15px;
+        }
+
+      }
+
+      .imgnosotros {
+        margin-left: 46px;
+        width: 80%;
+      }
+      
+    }
+  }
+  
+  /*  CATALOGO   */
+  
+  .titulovehiculos {
+    width: 70%;
+  }
+
+  .catalogo {
+
+    .cajamoto {
+
+      .fotomoto {
+        width: 100%;
+      }
+
+    }
+
+    .linkreturn {
+      margin: 0;
+      display: block;
+      margin-left: 200px;
+      margin-top: 20px;
+        
+    }
+
+  }
+
+  .gridropa {
+    grid-template-columns: 225px 225px ;
+    grid-template-rows: 398px
+  }
+
+  /*  HISTORIA   */
+  
+  .titulohistoria {
+    margin-top: 54px;
+    
+  }
+
+  .container {
+
+    .textos {
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .carousel {
+      margin: 0;
+      margin-left: -11px;
+      margin-bottom: 20px;
+      padding: 0;
+      padding-left: 56px;
+      padding-right: 50px;
+      width: 100%;
+    }
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@media screen and (max-width: 600px) {
+      
+  
+     
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+       
+    .logoindex {
+      display: flex;
+    
+      .parrafologo{
+       
+        margin-left:89px;
+        width: 100%;
+        font-size: 13px;
+      }
+
+    }
+   
+    .navbarpadre {
+      width: 100%;
+      display: flex;
+            
+      .navbarini {
+        font-size: 13px;
+      }
+            
+    }
+
+  }
+  
+
+  .contenedorcentral  {
+           
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr;
+       
+    .tituloimg {
+      
+      width: 80%;
+    }
+
+    .imgindex {
+      width: 100%;
+      margin: 0px;
+      margin-top: 100px;
+         
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .imgp {
+        width: 80%;
+        margin-left: 18px;
+        margin-bottom: 20px;
+              
+              
+      }
+
+      .tituloimgp {
+          
+        text-decoration: underline;
+        justify-content: center;
+        width: 100%;
+              
+              
+      }
+
+      .pimg {
+        text-align: left;
+              
+      }
+
+      .linkimgp {
+        margin-left:12px;
+          
+      }
+
+    }
+            
+  }
+  
+  .derechoreservado {
+    font-size: 12px;
+  }
+  
+      
+  /* REGISTRO */
+      
+  .tituloregistro {
+    width: 70%;
+
+    .h2estilo {
+      font-size: 20px;
+    }
+
+  }
+  
+  
+  
+ 
+  
+  
+  .form1 {
+          
+          
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
+  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+            
+
+    .formregistro1 {
+  
+      width: 80%;
+      margin-left: -250px;
+      margin-top: 350px;
+      background-color: rgb(0, 0, 0);
+
+      .fieldset1 {
+  
+        margin: 0;
+
+        .tienescuentaform1 {
+          font-size: 15px;
+        }
+      
+      }
+    
+    }
+  
+  }
+  
+  
+  
+  /*------CATALOGO----------*/
+  
+  .titulovehiculos {
+    width: 70%;
+  }
+  
+  .catalogo{
+
+    .cajamoto {
+      height: 300px;
+
+      .fotomoto {
+        width: 100%;
+      }
+
+    }
+
+    .cajadescripcionmoto {
+      font-size: 13px;
+    }
+
+    .linkreturn {
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 180px;
+    }
+
+  }
+  
+  
+  .gridropa {
+    grid-template-columns: 250px  ;
+    grid-template-rows: 379px;
+  }
+  
+
+  /*--------NOSOTROS---------*/
+
+  .fondogradientanimado{
+
+    .titulonosotros {
+      font-size: 25px;
+      margin-top: 75px;
+    }
+    .cajaseimagenes{
+
+      .quienesomos{
+
+        width: 80%;
+        .parrafonosotros {
+          font-size: 15px;
+        }
+
+      }
+
+      .imgnosotros {
+        margin-left: 46px;
+        width: 80%;
+      }
+      
+    }
+  }
+  
+  
+  /*--------CONTACTO---------*/
+  
+  .form2 {
+
+    .formregistro2 {
+      width: 70%;
+      align-items: center;
+        
+    }
+
+  }
+  
+  
+  
+  /*  HISTORIA   */
+  
+  .titulohistoria {
+    margin-top: 54px;
+    font-size: 25px;
+  }
+  
+  .container {
+
+    .carousel {
+      width: 80%;
+      margin: 0;
+      margin-left: 45px;
+      margin-bottom: 20px;
+      padding-right: 50px;
+    }
+
+  }
+  
+  
+  
+  
+  
+}
+  
+  
+  
+  
+@media screen and (max-width: 400px)  {
+      
+  
+     
+  .cajaheder {
+    margin-bottom: 30px;
+    width: 100%;
+          
+    .logoindex {
+      display: flex;
+      width: 70%;
+
+      .tituloindex {
+        margin-top: 2px;
+        
+      }
+
+      .parrafologo{
+        
+        margin-left: 106px;
+        width: 100%;
+        font-size: 13px;
+      }
+    
+    }
+
+    .navbarpadre {
+      width: 100%;
+      display: flex;
+      margin-left: 2px; 
+
+      
+      .navbarini {
+        font-size: 13px;
+        
+          
+      }
+            
+    }
+   
+  }
+  
+
+  .linea1 {
+    width: 100%;
+    margin-top: 43px;
+    
+  }
+  
+  
+  .contenedorcentral  {
+           
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+          
+    
+    .tituloimg {
+
+      font-size: 11px;
+      width: 100%;
+
+      .h2estilo {
+        font-size: 13px;
+        width: 100%;
+      }
+      
+    }
+
+    .imgindex {
+      width: 100%;
+      margin: 0px;
+      margin-top: 100px;
+          
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .imgp {
+        width: 314px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+              
+              
+      }
+
+      .tituloimgp {
+          
+        text-decoration: underline;
+        justify-content: center;
+        width: 100%;
+              
+              
+      }
+      .pimg {
+        text-align: left;
+        font-size: 13px;
+              
+      }
+      .linkimgp {
+        margin-left: 20px;
+          
+      }
+
+    }
+
+
+            
+  }
+  
+
+  .derechoreservado {
+    font-size: 12px;
+  }
+  
+      
+  /* REGISTRO */
+      
+  
+  
+  
+  
+  .form1 {
+          
+          
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat ;
+  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+            
+    .formregistro1 {
+  
+      width: 80%;
+      margin-left: -280px;
+      margin-top: 300px;
+      background-color: rgb(0, 0, 0);
+    
+      .fieldset1 {
+  
+        margin: 0;
+
+        .tienescuentaform1 {
+          font-size: 12px;
+        }
+      
+      }
+
+    }
+
+  
+  }
+  
+  
+
+  
+  /*------CATALOGO----------*/
+  
+  .linea2 {
+    margin-top: 39px;
+  }
+
+  .titulovehiculos {
+    width: 70%;
+      
+    .h2estilo {
+      font-size: 18px;
+    }
+
+  }
+  
+  
+  .catalogo{
+
+    .cajamoto {
+      height: 300px;
+
+      .fotomoto {
+        width: 100%;
+        margin-top: 80px;
+      }
+
+    }
+    .cajadescripcionmoto {
+      font-size: 11px;
+    }
+
+    .linkreturn {
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 100px;
+
+      .linkinicio {
+        font-size: 14px;
+      }
+
+    }
+
+  }
+  
+  
+  .tituloimgropa {
+    width: 90%;
+  }
+  
+  .gridropa {
+    grid-template-columns: 200px  ;
+    grid-template-rows: 393px;
+
+    .cajaropa{
+
+      .descripcionropa {
+        font-size: 14px;
+      }
+
+    }
+    
+  }
+  
+ 
+  
+  
+  /*--------NOSOTROS---------*/
+  
+  
+  
+
+  .fondogradientanimado{
+
+    .titulonosotros {
+      font-size: 25px;
+      margin-top: 75px;
+    }
+    .cajaseimagenes{
+
+      .quienesomos{
+
+        width: 80%;
+        .parrafonosotros {
+          font-size: 15px;
+        }
+
+      }
+
+      .imgnosotros {
+        margin-left: 46px;
+        width: 80%;
+      }
+      
+    }
+  }
+  
+  .containermapa {
+
+    .mapatienda {
+      width: 80%;
+    }
+
+  }
+  
+  
+  
+  /*--------CONTACTO---------*/
+  
+  .form2 {
+
+    .formregistro2 {
+      width: 85%;
+      align-items: center;
+      margin-left: -430px;
+        
+    }
+
+  }
+  
+  
+  
+  /*  HISTORIA   */
+  
+  .titulohistoria {
+    margin-top: 81px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .titulolegendarias {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .container {
+
+    .carousel {
+      width: 90%;
+      margin: 0;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding-right: 50px;
+    }
+
+  }
+  
+  
+  
+  
+}

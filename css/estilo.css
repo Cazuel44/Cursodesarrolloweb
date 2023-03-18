@@ -1,0 +1,1436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; /* */
+}
+
+.cajaheder {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(90deg, rgb(57, 251, 76) 0%, rgb(0, 0, 0) 2%, rgb(0, 0, 0) 43%, rgb(70, 255, 1) 100%);
+  height: 100px;
+}
+.cajaheder .logo {
+  width: 90px;
+  float: left;
+}
+.cajaheder .logoindex {
+  display: inline-block;
+}
+.cajaheder .logoindex .tituloindex {
+  color: rgb(49, 248, 76);
+  font-size: 50px;
+  width: 390px;
+  margin-bottom: 10px;
+}
+.cajaheder .logoindex .parrafologo {
+  font-style: oblique;
+  position: relative;
+  right: 100px;
+}
+
+.navbarpadre {
+  width: 100%;
+}
+.navbarpadre .navbarini {
+  color: greenyellow;
+  margin-left: 20px;
+  transition: 1s;
+  border-radius: 5px;
+}
+.navbarpadre .navbarini:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.fondogradientanimado {
+  background: linear-gradient(45deg, black, rgba(5, 255, 59, 0.267), black, rgba(81, 255, 1, 0.432));
+  background-size: 400% 400%;
+  animation-name: backgrounddecolor;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+}
+@keyframes backgrounddecolor {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.fondogradientanimado .titulonosotros {
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 15px;
+}
+.fondogradientanimado .cajaseimagenes {
+  display: flex;
+}
+.fondogradientanimado .cajaseimagenes .quienesomos {
+  margin-left: 50px;
+  padding: 10px;
+  width: 30%;
+  text-align: left;
+  line-height: 29px;
+  border: 2px solid greenyellow;
+  background-color: black;
+}
+.fondogradientanimado .cajaseimagenes .imgnosotros {
+  width: 45%;
+  margin-left: 20%;
+  margin-top: 10px;
+  border: 2px solid greenyellow;
+}
+.fondogradientanimado .cajaseimagenes .imgnosotros .motoexpo {
+  width: 100%;
+}
+
+.gridropa {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  gap: 3em;
+  margin-top: 50px;
+  padding: 20px;
+  width: 100%;
+}
+.gridropa .cajaropa {
+  border: 2px solid greenyellow;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 15px;
+  transition: 1s;
+}
+.gridropa .cajaropa:hover {
+  transform: scale(1.1);
+}
+.gridropa .cajaropa .imagenes {
+  width: 95%;
+  height: 300px;
+  transition: 1s;
+}
+.gridropa .cajaropa .imagenes:hover {
+  background-color: white;
+}
+.gridropa .cajaropa .descripcionropa {
+  border-top: 2px solid greenyellow;
+}
+.gridropa .cajaropa select {
+  margin-bottom: 10px;
+  background-color: greenyellow;
+  border: 5px solid greenyellow;
+  border-radius: 5px;
+}
+
+.catalogo {
+  border: 1px solid greenyellow;
+  margin: 10px;
+  padding: 20px;
+  width: 99%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10%;
+}
+.catalogo .cajamoto {
+  border: 1px solid greenyellow;
+  width: 40%;
+  margin-top: 50px;
+  flex-direction: row;
+  transition: 1s;
+}
+.catalogo .cajamoto:hover {
+  transform: scale(1.05);
+  background-color: white;
+}
+.catalogo .cajadescripcionmoto {
+  color: white;
+  border-left: solid greenyellow;
+  width: 50%;
+  margin-top: 50px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 2;
+}
+.catalogo .linkreturn {
+  margin-top: 20px;
+  margin-left: 755px;
+  font-size: 20px;
+  color: greenyellow;
+  padding: 10px;
+}
+.catalogo .linkreturn .linkinicio {
+  color: greenyellow;
+  text-decoration: none;
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 1s;
+}
+.catalogo .linkreturn .linkinicio:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.textoinicio {
+  text-align: justify;
+  border: 3px solid greenyellow;
+  margin-bottom: 10px;
+}
+.textoinicio .textos {
+  padding-top: 100px;
+}
+.textoinicio .titulolegendarias {
+  font-style: oblique;
+  color: greenyellow;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.textoinicio .carousel {
+  width: 50%;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  padding-left: 70px;
+}
+
+.containermapa {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.459)), url(../img/ninjafonditoo.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.containermapa .mapatienda {
+  margin-top: 50px;
+  padding: 10px;
+  width: 50%;
+}
+.containermapa .mapatienda .mapita {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contenedorcentral {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.712)), url(../img/fondo.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.contenedorcentral .tituloimg {
+  font-style: oblique;
+  margin-left: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid greenyellow;
+  width: 80%;
+  animation: text-flicker-in-glow 4s linear both;
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+
+footer {
+  background-color: greenyellow;
+}
+footer .logofooter {
+  width: 80px;
+  border-radius: 90px;
+}
+footer .derechoreservado {
+  font-size: 15px;
+  color: black;
+}
+
+.form1 {
+  background-color: greenyellow;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) no-repeat center center fixed;
+}
+.form1 .formregistro1 {
+  width: 25%;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+  left: 300px;
+  top: -80px;
+  border-radius: 10px;
+}
+.form1 .formregistro1 .fieldset1 {
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.form1 .formregistro1 .fieldset1 label {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+.form1 .formregistro1 .fieldset1 input, .form1 .formregistro1 .fieldset1 textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.form1 .formregistro1 .fieldset1 .enviarregistro {
+  width: 50px;
+  border-radius: 7px;
+}
+.form1 .formregistro1 .fieldset1 .tienescuentaform1 {
+  color: greenyellow;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+.form1 .formregistro1 .fieldset1 .tienescuentaform1:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.form2 {
+  background-color: greenyellow;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/ninjafondo.jpg) no-repeat center center fixed;
+}
+.form2 .formregistro2 {
+  width: 25%;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+  left: 450px;
+  bottom: 70px;
+  border-radius: 10px;
+}
+.form2 .formregistro2 .fieldset2 {
+  padding: 10px;
+  background-color: black;
+}
+.form2 .formregistro2 .fieldset2 label {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+.form2 .formregistro2 .fieldset2 input, .form2 .formregistro2 .fieldset2 textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.form2 .formregistro2 .fieldset2 .enviarcontacto {
+  width: 50px;
+}
+.form2 .formregistro2 .fieldset2 .volverinicio {
+  color: greenyellow;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+.form2 .formregistro2 .fieldset2 .volverinicio:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.linea1 {
+  background-color: greenyellow;
+  border: solid greenyellow;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.linea2 {
+  background-color: greenyellow;
+  border: solid greenyellow;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.linea3 {
+  background-color: greenyellow;
+  border: solid greenyellow;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.imgindex {
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 60px;
+  padding: 30px;
+  display: inline-block;
+  transition: 2s;
+}
+.imgindex:hover {
+  transform: scale(1.2);
+}
+.imgindex .imgp {
+  width: 500px;
+  border-radius: 200px;
+  animation: slide-in-fwd-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.imgindex .tituloimgp {
+  color: greenyellow;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.imgindex .pimg {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.imgindex .linkimgp {
+  color: greenyellow;
+  border: solid greenyellow;
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+  transition: 1s;
+}
+.imgindex .linkimgp:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.tituloaccesorios {
+  font-style: oblique;
+  margin-left: 235px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 20px;
+  width: 70%;
+  animation: shake-horizontal 7s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+}
+@keyframes shake-horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60% {
+    transform: translateX(5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+}
+.tituloaccesorios .linkropa {
+  color: greenyellow;
+  border: solid greenyellow;
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+  transition: 1s;
+  display: block;
+  width: 45%;
+  margin-top: 10px;
+}
+.tituloaccesorios .linkropa:hover {
+  background-color: greenyellow;
+  border: 1px solid yellow;
+  color: black;
+}
+
+.titulocatalogo {
+  position: absolute;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.titulohistoria {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-style: oblique;
+  color: greenyellow;
+}
+
+.tituloregistro {
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid greenyellow;
+  width: 30%;
+  animation: text-flicker-in-glow 4s linear both;
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.tituloimgropa {
+  font-style: oblique;
+  border-bottom: 2px solid greenyellow;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.titulovehiculos {
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid greenyellow;
+  width: 30%;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+@media screen and (max-width: 1200px) {
+  /* INDEX */
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .contenedorcentral {
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .contenedorcentral .tituloimg {
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    font-size: 11px;
+  }
+  .contenedorcentral .imgindex {
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+  .contenedorcentral .imgindex:hover {
+    transform: scale(1.05);
+  }
+  .contenedorcentral .imgindex .imgp {
+    width: 100%;
+    margin: 0;
+  }
+  .contenedorcentral .imgindex .linkimgp {
+    margin-left: 200px;
+  }
+  .contenedorcentral .tituloaccesorios {
+    margin: 10px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .contenedorcentral .tituloaccesorios .linkropa {
+    width: 75%;
+  }
+  .derechoreservado {
+    font-size: 12px;
+  }
+  /* Registro */
+  .tituloregistro {
+    width: 50%;
+  }
+  .form1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  .form1 .formregistro1 {
+    width: 45%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -250px;
+    background-color: rgb(0, 0, 0);
+  }
+  .form1 .formregistro1 .fieldset1 {
+    margin: 0;
+  }
+  /* CATALOGO */
+  .titulovehiculos {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  .catalogo {
+    width: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .catalogo .linkreturn {
+    margin-left: 430px;
+  }
+  .tituloimgropa {
+    margin-left: 20px;
+    width: 60%;
+  }
+  .gridropa {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 396px;
+  }
+  .gridropa .imagenes {
+    height: 200px;
+  }
+  /* NOSOTROS */
+  .titulonosotros {
+    font-style: oblique;
+    text-decoration: underline;
+  }
+  .fondogradientanimado .cajaseimagenes {
+    flex-direction: column;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos {
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .fondogradientanimado .cajaseimagenes .imgnosotros {
+    width: 70%;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  /* CONTACTO */
+  .form2 {
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/ninjafondo.jpg) no-repeat top center;
+  }
+  .form2 .formregistro2 {
+    margin: 0;
+    width: 40%;
+    margin-left: -350px;
+    margin-top: -55px;
+  }
+  .form2 .formregistro2 .fieldset2 {
+    margin: 0;
+  }
+  .form2 .formregistro2 .fieldset2 .enviarcontacto {
+    text-align: center;
+  }
+  /* HISTORIA   */
+  .container .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .container .carousel {
+    margin: 0;
+    margin-left: 21px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 315px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contenedorcentral .imgindex .linkimgp {
+    margin-left: 71px;
+  }
+  /*  HISTORIA  */
+  .container .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .container .carousel {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 250px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  /*  HISTORIA  */
+  .container .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .container .carousel {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 156px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* INDEX */
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .cajaheder .logoindex {
+    display: flex;
+  }
+  .cajaheder .logoindex .parrafologo {
+    margin-left: 110px;
+  }
+  .cajaheder .navbarpadre {
+    width: 100%;
+    display: flex;
+  }
+  .contenedorcentral {
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .contenedorcentral .tituloimg {
+    font-size: 11px;
+    width: 75%;
+  }
+  .contenedorcentral .imgindex {
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .contenedorcentral .imgindex:hover {
+    transform: scale(1.1);
+  }
+  .contenedorcentral .imgindex .imgp {
+    width: 100%;
+    margin: 0;
+  }
+  .contenedorcentral .imgindex .tituloimgp {
+    justify-content: center;
+    width: 80%;
+  }
+  .derechoreservado {
+    font-size: 12px;
+  }
+  /* Registro */
+  .tituloregistro {
+    width: 50%;
+  }
+  .form1 {
+    background-color: greenyellow;
+    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  .form1 .formregistro1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 350px;
+    margin-left: -250px;
+    background-color: rgb(0, 0, 0);
+  }
+  .form1 .formregistro1 .fieldset1 {
+    margin: 0;
+  }
+  /*--------NOSOTROS---------*/
+  .fondogradientanimado .titulonosotros {
+    margin-top: 75px;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos {
+    width: 80%;
+  }
+  .fondogradientanimado .cajaseimagenes .imgnosotros {
+    margin-left: 46px;
+    width: 80%;
+  }
+  /*-----------CATALOGO-----------*/
+  .titulovehiculos {
+    width: 55%;
+  }
+  .catalogo .cajamoto {
+    height: 200px;
+  }
+  .catalogo .cajadescripcionmoto {
+    font-size: 15px;
+    padding: 15px;
+    width: 50%;
+  }
+  .catalogo .cajadescripcionmoto li {
+    list-style: none;
+  }
+  .catalogo .linkreturn {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 250px;
+  }
+  .gridropa {
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 398px;
+  }
+  /*---------CONTACTO-----------*/
+  .form2 .formregistro2 {
+    width: 50%;
+  }
+  /*  HISTORIA  */
+  .container .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .container .carousel {
+    margin: 0;
+    margin-left: -11px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 132px;
+    padding-right: 50px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  /*   INDEX   */
+  .cajaheder .parrafologo {
+    margin-left: 110px;
+  }
+  .cajaheder .navbarpadre {
+    margin-top: 15px;
+  }
+  .linea1 {
+    margin-top: 30px;
+  }
+  .contenedorcentral .tituloimg {
+    width: 80%;
+    font-size: 11px;
+  }
+  .contenedorcentral .imgindex:hover {
+    transform: scale(1.05);
+  }
+  .contenedorcentral .imgindex .linkimgp {
+    margin: 0;
+    margin-left: 100px;
+  }
+  /*    REGISTRO   */
+  .tituloregistro {
+    width: 50%;
+  }
+  .form1 .formregistro1 {
+    width: 60%;
+  }
+  /*--------NOSOTROS---------*/
+  .fondogradientanimado .titulonosotros {
+    font-size: 25px;
+    margin-top: 75px;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos {
+    width: 80%;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos .parrafonosotros {
+    font-size: 15px;
+  }
+  .fondogradientanimado .cajaseimagenes .imgnosotros {
+    margin-left: 46px;
+    width: 80%;
+  }
+  /*  CATALOGO   */
+  .titulovehiculos {
+    width: 70%;
+  }
+  .catalogo .cajamoto .fotomoto {
+    width: 100%;
+  }
+  .catalogo .linkreturn {
+    margin: 0;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .gridropa {
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 398px;
+  }
+  /*  HISTORIA   */
+  .titulohistoria {
+    margin-top: 54px;
+  }
+  .container .textos {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .container .carousel {
+    margin: 0;
+    margin-left: -11px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-left: 56px;
+    padding-right: 50px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cajaheder {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .cajaheder .logoindex {
+    display: flex;
+  }
+  .cajaheder .logoindex .parrafologo {
+    margin-left: 89px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .cajaheder .navbarpadre {
+    width: 100%;
+    display: flex;
+  }
+  .cajaheder .navbarpadre .navbarini {
+    font-size: 13px;
+  }
+  .contenedorcentral {
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr;
+  }
+  .contenedorcentral .tituloimg {
+    width: 80%;
+  }
+  .contenedorcentral .imgindex {
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+  }
+  .contenedorcentral .imgindex:hover {
+    transform: scale(1.05);
+  }
+  .contenedorcentral .imgindex .imgp {
+    width: 80%;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
+  .contenedorcentral .imgindex .tituloimgp {
+    text-decoration: underline;
+    justify-content: center;
+    width: 100%;
+  }
+  .contenedorcentral .imgindex .pimg {
+    text-align: left;
+  }
+  .contenedorcentral .imgindex .linkimgp {
+    margin-left: 12px;
+  }
+  .derechoreservado {
+    font-size: 12px;
+  }
+  /* REGISTRO */
+  .tituloregistro {
+    width: 70%;
+  }
+  .tituloregistro .h2estilo {
+    font-size: 20px;
+  }
+  .form1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  .form1 .formregistro1 {
+    width: 80%;
+    margin-left: -250px;
+    margin-top: 350px;
+    background-color: rgb(0, 0, 0);
+  }
+  .form1 .formregistro1 .fieldset1 {
+    margin: 0;
+  }
+  .form1 .formregistro1 .fieldset1 .tienescuentaform1 {
+    font-size: 15px;
+  }
+  /*------CATALOGO----------*/
+  .titulovehiculos {
+    width: 70%;
+  }
+  .catalogo .cajamoto {
+    height: 300px;
+  }
+  .catalogo .cajamoto .fotomoto {
+    width: 100%;
+  }
+  .catalogo .cajadescripcionmoto {
+    font-size: 13px;
+  }
+  .catalogo .linkreturn {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 180px;
+  }
+  .gridropa {
+    grid-template-columns: 250px;
+    grid-template-rows: 379px;
+  }
+  /*--------NOSOTROS---------*/
+  .fondogradientanimado .titulonosotros {
+    font-size: 25px;
+    margin-top: 75px;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos {
+    width: 80%;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos .parrafonosotros {
+    font-size: 15px;
+  }
+  .fondogradientanimado .cajaseimagenes .imgnosotros {
+    margin-left: 46px;
+    width: 80%;
+  }
+  /*--------CONTACTO---------*/
+  .form2 .formregistro2 {
+    width: 70%;
+    align-items: center;
+  }
+  /*  HISTORIA   */
+  .titulohistoria {
+    margin-top: 54px;
+    font-size: 25px;
+  }
+  .container .carousel {
+    width: 80%;
+    margin: 0;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cajaheder {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .cajaheder .logoindex {
+    display: flex;
+    width: 70%;
+  }
+  .cajaheder .logoindex .tituloindex {
+    margin-top: 2px;
+  }
+  .cajaheder .logoindex .parrafologo {
+    margin-left: 106px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .cajaheder .navbarpadre {
+    width: 100%;
+    display: flex;
+    margin-left: 2px;
+  }
+  .cajaheder .navbarpadre .navbarini {
+    font-size: 13px;
+  }
+  .linea1 {
+    width: 100%;
+    margin-top: 43px;
+  }
+  .contenedorcentral {
+    border: 2px solid greenyellow;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .contenedorcentral .tituloimg {
+    font-size: 11px;
+    width: 100%;
+  }
+  .contenedorcentral .tituloimg .h2estilo {
+    font-size: 13px;
+    width: 100%;
+  }
+  .contenedorcentral .imgindex {
+    width: 100%;
+    margin: 0px;
+    margin-top: 100px;
+  }
+  .contenedorcentral .imgindex:hover {
+    transform: scale(1.05);
+  }
+  .contenedorcentral .imgindex .imgp {
+    width: 314px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .contenedorcentral .imgindex .tituloimgp {
+    text-decoration: underline;
+    justify-content: center;
+    width: 100%;
+  }
+  .contenedorcentral .imgindex .pimg {
+    text-align: left;
+    font-size: 13px;
+  }
+  .contenedorcentral .imgindex .linkimgp {
+    margin-left: 20px;
+  }
+  .derechoreservado {
+    font-size: 12px;
+  }
+  /* REGISTRO */
+  .form1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/endurito.jpg) center center no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  .form1 .formregistro1 {
+    width: 80%;
+    margin-left: -280px;
+    margin-top: 300px;
+    background-color: rgb(0, 0, 0);
+  }
+  .form1 .formregistro1 .fieldset1 {
+    margin: 0;
+  }
+  .form1 .formregistro1 .fieldset1 .tienescuentaform1 {
+    font-size: 12px;
+  }
+  /*------CATALOGO----------*/
+  .linea2 {
+    margin-top: 39px;
+  }
+  .titulovehiculos {
+    width: 70%;
+  }
+  .titulovehiculos .h2estilo {
+    font-size: 18px;
+  }
+  .catalogo .cajamoto {
+    height: 300px;
+  }
+  .catalogo .cajamoto .fotomoto {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .catalogo .cajadescripcionmoto {
+    font-size: 11px;
+  }
+  .catalogo .linkreturn {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .catalogo .linkreturn .linkinicio {
+    font-size: 14px;
+  }
+  .tituloimgropa {
+    width: 90%;
+  }
+  .gridropa {
+    grid-template-columns: 200px;
+    grid-template-rows: 393px;
+  }
+  .gridropa .cajaropa .descripcionropa {
+    font-size: 14px;
+  }
+  /*--------NOSOTROS---------*/
+  .fondogradientanimado .titulonosotros {
+    font-size: 25px;
+    margin-top: 75px;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos {
+    width: 80%;
+  }
+  .fondogradientanimado .cajaseimagenes .quienesomos .parrafonosotros {
+    font-size: 15px;
+  }
+  .fondogradientanimado .cajaseimagenes .imgnosotros {
+    margin-left: 46px;
+    width: 80%;
+  }
+  .containermapa .mapatienda {
+    width: 80%;
+  }
+  /*--------CONTACTO---------*/
+  .form2 .formregistro2 {
+    width: 85%;
+    align-items: center;
+    margin-left: -430px;
+  }
+  /*  HISTORIA   */
+  .titulohistoria {
+    margin-top: 81px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .titulolegendarias {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .container .carousel {
+    width: 90%;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+}/*# sourceMappingURL=estilo.css.map */

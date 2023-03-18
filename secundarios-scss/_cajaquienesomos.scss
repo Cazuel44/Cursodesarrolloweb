@@ -1,0 +1,69 @@
+
+
+.fondogradientanimado {
+    background: linear-gradient(45deg, black, rgba(5, 255, 59, 0.267), black, rgba(81, 255, 1, 0.432));
+    background-size: 400% 400%;
+    animation-name: backgrounddecolor;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+
+    @keyframes backgrounddecolor {
+        0% {
+          background-position: 0 50%;      
+        }
+        50% {
+          background-position: 100% 50%;      
+        }
+        100% {
+          background-position: 0 50%;      
+        }
+      
+        
+      
+    }
+
+    .titulonosotros {
+        color: white;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 50px;
+        padding: 15px;
+    }
+
+
+    .cajaseimagenes {
+        display: flex;
+      
+        
+     
+        .quienesomos {
+           
+            margin-left: 50px;
+            padding: 10px;
+            width: 30%;
+            text-align: left;
+            line-height: 29px;
+            border: 2px solid greenyellow;
+            background-color: black;
+
+
+        }
+
+        .imgnosotros {
+           
+            width: 45%;
+            margin-left: 20%;
+            margin-top: 10px;
+            border: 2px solid greenyellow;
+
+            .motoexpo {
+                width: 100%;
+            }
+            
+        }
+          
+
+    }
+
+}

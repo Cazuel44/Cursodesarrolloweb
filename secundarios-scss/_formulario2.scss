@@ -1,0 +1,59 @@
+
+
+.form2 {
+    background-color: greenyellow;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.11)), url(../img/ninjafondo.jpg) no-repeat center center fixed;
+  
+
+    .formregistro2 {
+        width: 25%;
+        border: 1px solid black;
+        padding: 20px;
+        background-color: black;
+        position: relative;
+        left: 450px;
+        bottom: 70px;
+        border-radius: 10px;
+
+        .fieldset2 {
+            padding: 10px;
+            background-color: black;
+
+            label {
+                font-size: 14px;
+                display: block;
+                width: 100%;
+            }
+              
+            input, textarea {
+                margin-bottom: 20px;
+                width: 100%;
+                padding-bottom: 10px;
+              
+            }
+              
+            .enviarcontacto {
+                width: 50px;
+            }
+
+            .volverinicio {
+                color: greenyellow;
+                transition: 0.7s;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: greenyellow;
+                    border: 1px solid yellow;
+                    color: black;
+                }
+                
+            }
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,64 @@
+
+
+.gridropa {
+
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+  
+    gap: 3em;
+  
+  
+  
+  
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    
+  
+
+
+    .cajaropa {
+
+        border: 2px solid greenyellow;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        border-radius: 15px;
+        transition: 1s;
+      
+
+        &:hover {
+            transform: scale(1.1);
+              
+        }
+
+        .imagenes {
+            width: 95%;
+            height: 300px;
+            transition: 1s;
+          
+            &:hover {
+                background-color: white;
+            }
+        }
+
+        .descripcionropa {
+            border-top: 2px solid greenyellow;
+            
+        }
+
+        select {
+  
+  
+            margin-bottom: 10px;
+            
+            background-color: greenyellow;
+            border: 5px solid greenyellow;
+            border-radius: 5px;
+            
+        }
+
+
+    }
+
+}

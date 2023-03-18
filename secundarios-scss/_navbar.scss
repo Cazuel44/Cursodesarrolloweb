@@ -1,0 +1,19 @@
+.navbarpadre {
+    width: 100%;
+     
+    
+ 
+    .navbarini {
+        color: greenyellow;
+        margin-left: 20px;
+        transition: 1s;
+        border-radius: 5px;
+          
+        &:hover {
+            background-color: greenyellow;
+            border: 1px solid yellow;
+            color: black;
+          
+        }
+    }
+}
