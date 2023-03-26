@@ -1,19 +1,65 @@
 .navbarpadre {
     width: 100%;
-     
     
- 
-    .navbarini {
-        color: greenyellow;
-        margin-left: 20px;
-        transition: 1s;
-        border-radius: 5px;
-          
-        &:hover {
-            background-color: greenyellow;
-            border: 1px solid yellow;
-            color: black;
-          
+    .menu {
+
+        @for $navbar from 1 through 5 {
+
+            .navbarini:nth-child(#{$navbar}) {
+                animation-delay: $navbar * 2s;
+            }
+
         }
-    }
+
+        .navbarini {
+            color: greenyellow;
+            margin-left: 20px;
+            transition: 1s;
+            border-radius: 5px;
+
+            background: linear-gradient(45deg, black, rgba(172, 255, 47, 0.692), black, rgba(172, 255, 47, 0.685));
+            background-size: 400% 400%;
+            animation-name: camibar;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+
+            @keyframes camibar {
+                0% {
+                  background-position: 0 50%;      
+                }
+                50% {
+                  background-position: 100% 50%;      
+                }
+                100% {
+                  background-position: 0 50%;      
+                }
+            }
+
+            &:hover {
+                
+                border: 1px solid yellow;
+                color: black;
+            }
+        
+            
+
+            
+
+        }
+    
+    }  
+
 }
+
+        
+        
+            
+   
+
+
+
+
+
+
+

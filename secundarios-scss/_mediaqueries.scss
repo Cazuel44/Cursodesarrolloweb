@@ -958,11 +958,49 @@
 }
   
   
+
+@media screen and (max-width: 500px) {
+  
+/********CATALOGO*********/
+
+.catalogo{
+
+  flex-direction: column;
+
+  .cajamoto {
+    height: 300px;
+    width: 100%;
+
+    .fotomoto {
+      width: 100%;
+      
+    }
+
+  }
+  .cajadescripcionmoto {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .linkreturn {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+
+    .linkinicio {
+      font-size: 14px;
+    }
+
+  }
+
+}
+
+}
+
   
   
 @media screen and (max-width: 400px)  {
       
-  
      
   .cajaheder {
     margin-bottom: 30px;
@@ -987,17 +1025,18 @@
     }
 
     .navbarpadre {
+
       width: 100%;
-      display: flex;
+      font-size: 13px;
       margin-left: 2px; 
 
-      
-      .navbarini {
+      .menu {
+
         font-size: 13px;
         
-          
-      }
-            
+        
+         
+      }        
     }
    
   }
@@ -1137,8 +1176,11 @@
   
   .catalogo{
 
+    flex-direction: column;
+
     .cajamoto {
       height: 300px;
+      width: 100%;
 
       .fotomoto {
         width: 100%;
@@ -1147,7 +1189,8 @@
 
     }
     .cajadescripcionmoto {
-      font-size: 11px;
+      font-size: 13px;
+      width: 100%;
     }
 
     .linkreturn {
@@ -1169,7 +1212,7 @@
   }
   
   .gridropa {
-    grid-template-columns: 200px  ;
+    grid-template-columns: 275px;
     grid-template-rows: 393px;
 
     .cajaropa{
